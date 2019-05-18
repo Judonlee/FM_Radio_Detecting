@@ -1,0 +1,27 @@
+# MFCC基本配置参数解释
+SOURCEKIND = WAVEFORM -文件种类是语音
+SOURCEFORMAT = WAV -格式是WAV格式
+SOURCERATE = 625.0-采样率是16KHZ（16000个采样点/s，1个点是1/160000s=625*100ns，100ns是HTK的时间单位）
+TARGETKIND=MFCC_E_D_A -目标是MFCC文件，以及energy(E,能量)， delta(D,一阶导数)，delta-delta(A,二阶导数)
+TARGETRATE=100000 -窗间隔为10ms（100000*100ns）
+WINDOWSIZE=250000 -窗长为25ms（250000*100ns）
+ZMEANSOURCE=T -将来源文件取zero mean,即去掉DC值
+USEHAMMING=T -使用hamming window
+PREEMCOEF=0.97 -预加重系数0.97
+NUMCHANS=26 -在MEL刻度下等分成26个频带，滤波器组的组数
+USEPOWER=F -不使用c(0)参数
+ENORMALISE = T-对能量归一化
+CEPLIFTER = 22 -倒谱升降系数
+NUMCEPS = 12-倒谱参数数
+SAVECOMPRESSED = F -不以压缩模式保存输出文件
+SAVEWITHCRC = T-将校验和加到输出参数文件
+
+CVN：Cepstral Variance Normalization（倒谱方差归一化）
+CMN：Cepstral Mean Normalization（倒谱均值归一化）
+--------------------- 
+
+http://www.voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/tutorial
+
+http://htk.eng.cam.ac.uk/docs/docs.shtml
+
+https://blog.csdn.net/lv_xinmy/article/details/8586664

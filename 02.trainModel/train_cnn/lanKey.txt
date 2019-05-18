@@ -1,0 +1,4 @@
+speech 1
+noise 0
+weak 0
+strong 0
