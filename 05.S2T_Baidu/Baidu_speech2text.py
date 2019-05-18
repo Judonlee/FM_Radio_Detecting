@@ -13,9 +13,9 @@ from tqdm import tqdm
 from aip import AipSpeech
 
 
-APP_ID = "15912573"
-API_KEY = "028o058LypiovBzMUWPV6i9x"
-SECRET_KEY = "6RB8ssTu63B915NamvRPOF3H1r6NO41u"
+APP_ID = ""
+API_KEY = ""
+SECRET_KEY = ""
 client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
 
 
