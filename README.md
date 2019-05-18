@@ -36,7 +36,7 @@
     └── requirements.txt           
   
 **调频广播检测系统框图**：
-![查看图](./docs/1.png){:height="80" width="80"}
+![查看图](./docs/1.png)
 
 ## Dependencies（依赖环境）
 
@@ -121,9 +121,9 @@ FBank、MFCC、SDC、PLP、Spectrum等特征
     tsne = manifold.TSNE(n_components=3, init='pca', random_state=0)
     X_tsne = tsne.fit_transform(last_embedding)
 
-![查看 2D 图](./docs/3.gif){:height="80" width="80"}
+![查看 2D 图](./docs/3.gif)
 
-![查看 3D 图](./docs/4.gif){:height="80" width="80"}
+![查看 3D 图](./docs/4.gif)
 
 
 ## Inference（推断-再次测试）
