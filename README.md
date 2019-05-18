@@ -36,7 +36,7 @@
     └── requirements.txt           
   
 **调频广播检测系统框图**：
-![查看图](./docs/1.png  =100x100)
+<img src="./docs/1.png" width = "100" height = "100" alt="调频广播检测系统框图" align=center />
 
 ## Dependencies（依赖环境）
 
