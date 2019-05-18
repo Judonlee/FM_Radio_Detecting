@@ -52,7 +52,7 @@ Installation（安装依赖）: pip install -r requirements.txt
 
 ## Dataset（数据集）
 
-链接：链接：https://pan.baidu.com/s/1KtqtVt8KHN0R_74fYrGydw 提取码：o3wf 
+链接：https://pan.baidu.com/s/1KtqtVt8KHN0R_74fYrGydw 提取码：o3wf 
 
 用于训练和测试的数据集
 
