@@ -50,9 +50,6 @@ Installation: pip install -r requirements.txt
 
 ## Dataset
 
-demo:
-
-![picture](./docs/2.png)
 
 ## Audio features extracted
 FBank、MFCC、SDC、PLP、Spectrum...
